@@ -1,0 +1,15 @@
+plugins {
+    id 'java'
+    id 'war'
+}
+
+archivesBaseName = 'module8'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // https://mvnrepository.com/artifact/jakarta.servlet/jakarta.servlet-api
+    compileOnly group: 'jakarta.servlet', name: 'jakarta.servlet-api', version: '6.0.0'
+}
