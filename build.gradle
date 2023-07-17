@@ -3,7 +3,7 @@ plugins {
     id 'war'
 }
 
-archivesBaseName = 'module8'
+archivesBaseName = 'module9'
 
 repositories {
     mavenCentral()
@@ -12,4 +12,8 @@ repositories {
 dependencies {
     // https://mvnrepository.com/artifact/jakarta.servlet/jakarta.servlet-api
     compileOnly group: 'jakarta.servlet', name: 'jakarta.servlet-api', version: '6.0.0'
+
+    // https://mvnrepository.com/artifact/org.thymeleaf/thymeleaf
+    implementation group: 'org.thymeleaf', name: 'thymeleaf', version: '3.1.1.RELEASE'
+
 }

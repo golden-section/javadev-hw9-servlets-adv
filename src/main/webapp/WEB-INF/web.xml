@@ -4,6 +4,4 @@
          xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
          metadata-complete="false"
          version="5.0">
-    <display-name>Time Servlet</display-name>
-    <description>Time Servlet - module 8</description>
 </web-app>
